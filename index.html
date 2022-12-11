@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>MovieHub</title>
 </head>
 
@@ -13,11 +14,26 @@
 
     <div class="container">
         <div class="navbar">
-            <img src="css/img/mh.png" class="logo">
+            <a href="index.html"><img src="css/img/mh.png" class="logo"></a>
             <nav>
                 <ul>
                     <li><a href="#">ГЛАВНАЯ</a></li>
-                    <li><a href="#">ЖАНР</a></li>
+                    <li><a href="" class="down">ЖАНР<span class="material-symbols-outlined">
+                                expand_more
+                            </span></a>
+                        <ul class="submenu">
+                            <li><a href="">Боевик</a></li>
+                            <li><a href="">Вестерн</a></li>
+                            <li><a href="">Детектив</a></li>
+                            <li><a href="">Драма</a></li>
+                            <li><a href="">Комедия</a></li>
+                            <li><a href="">Мелодрама</a></li>
+                            <li><a href="">Нуар</a></li>
+                            <li><a href="">Сказка</a></li>
+                            <li><a href="">Трагедия</a></li>
+                            <li><a href="">Ужасы</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">СЛУЧАЙНОСТЬ</a></li>
                     <li><a href="#">FAQ</a></li>
                 </ul>
@@ -31,28 +47,28 @@
                 <button type="button"> Перейти к просмотру</button>
             </div>
             <div class="col">
-                <a href="#">
+                <a href="aquaman.html">
                     <div class="card card1">
                         <h5>
                             Aquaman
                         </h5>
                     </div>
                 </a>
-                <a href="#">
+                <a href="joker.html">
                     <div class="card card2">
                         <h5>
                             Joker
                         </h5>
                     </div>
                 </a>
-                <a href="#">
+                <a href="parker.html">
                     <div class="card card3">
                         <h5>
                             Parker
                         </h5>
                     </div>
                 </a>
-                <a href="#">
+                <a href="titanic.html">
                     <div class="card card4">
                         <h5>
                             Titanic
